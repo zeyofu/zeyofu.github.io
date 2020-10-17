@@ -4,7 +4,8 @@ collection: publications
 permalink: /publication/2019-Arabic
 venue: 'Proceedings of the Fourth Arabic Natural Language Processing Workshop, pages 88–96 Florence, Italy, August 1, 2019. c 2019 Association for Computational Linguistics'
 date: 2019.8.1
-citation: 'Ahmed El-Kishky*, <b>Xingyu Fu*</b>, Aseel Addawood, Nahil Sobh, Clare Voss, and Jiawei Han. <i>in Proceedings of the Fourth Arabic Natural Language Processing Workshop ((pp. 88-96))</i>. <b>WANLP@ACL 2019</b>.'
+
+[//]: # citation: 'Ahmed El-Kishky*, <b>Xingyu Fu*</b>, Aseel Addawood, Nahil Sobh, Clare Voss, and Jiawei Han. <i>in Proceedings of the Fourth Arabic Natural Language Processing Workshop ((pp. 88-96))</i>. <b>WANLP@ACL 2019</b>.'
 ---
 
 ## Abstract
