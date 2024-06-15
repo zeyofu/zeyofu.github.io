@@ -1,1 +1,2 @@
-This is my [homepage](https://zeyofu.github.io/).
+# zeyofu.github.io
+This is a repo for Xingyu Fu's personal website.
