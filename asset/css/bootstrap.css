@@ -3858,6 +3858,11 @@ tbody.collapse.show {
   list-style: none;
 }
 
+.nav-name {
+  display: inline-block;
+  padding: 0.2rem 0rem;
+}
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
