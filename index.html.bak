@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+	<title>Xingyu Fu</title>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<link rel='stylesheet' href='asset/css/bootstrap.css'>
+	<link rel='stylesheet' href='asset/css/all.css'>
+	<link rel='stylesheet' href='asset/css/style.css'>
+</head>
+
+<body class='bg-light'>
+	<header>
+		<nav class='navbar navbar-light fixed-top bg-light'>
+			<!-- <a class=" nav-name" style="font-family:'Courier New'" ><h4>Xingyu Fu</h4></a> -->
+			<a class='navbar-brand col-sm-3 col-md-2 mt-1 ml-5' href='index.html'>
+				<!-- <h2>Xingyu Fu</h2> -->
+			</a>
+
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a class=" nav-link" href="#research">Publications 📄</a>
+				</li>
+				<li class="nav-item">
+					<a class=" nav-link" href="https://www.google.com/search?q=ghost+in+the+shell&oq=Ghost+in+the+Shell&gs_lcrp=EgZjaHJvbWUqEAgAEAAYgwEY4wIYsQMYgAQyEAgAEAAYgwEY4wIYsQMYgAQyEAgBEC4YgwEY1AIYsQMYgAQyEAgCEC4YgwEY1AIYsQMYgAQyDQgDEC4YgwEYsQMYgAQyCggEEC4YsQMYgAQyDQgFEC4Y1AIYsQMYgAQyEAgGEC4YgwEY1AIYsQMYgAQyCggHEC4YsQMYgAQyBwgIEAAYgAQyBwgJEAAYgASoAgCwAgE&sourceid=chrome&ie=UTF-8#ip=1">Why I love AI 🤖</a>
+				</li>
+				<li class="nav-item">
+					<a class=" nav-link" href="pages/golf.html">My journey to LPGA ⛳️</a>
+				</li>
+				<li class="nav-item">
+					<a class=" nav-link" href="https://www.instagram.com/tarkybaby/">My therapists 😺</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section id="top">
+		<div class='container pt-5'>
+			<div class="row pt-5">
+				<div class="col-4">
+					<!-- <img class="img-fluid rounded" src="asset/image/me.jpg" alt="headshot"> -->
+					<img class="img-fluid rounded" src="asset/image/me2.jpeg" alt="headshot">
+				</div>
+				<div class="col-6">
+					<h3 class=''> <span style="font-family:'verdana'">Xingyu Fu</span> <span style="font-family:YouYuan">(府星妤)</span></h3>
+					<div class="row">
+						<p class="text-muted mx-3 my-2">Email: xingyufu@princeton.edu</p>
+						<span class="icon">
+							<a class="text-dark" href=https://x.com/intent/user?screen_name=XingyuFu2 "><i
+							class="fab fa-twitter mx-2"></i></a></span>
+						<span class="icon"><a class="text-dark"
+								href="https://scholar.google.com/citations?hl=en&user=5p_uBNQAAAAJ"><i
+									class="fas fa-graduation-cap mx-2"></i></a></span>
+						<span class="icon"><a class="text-dark" href="https://github.com/zeyofu"><i
+									class="fab fa-github mx-2"></i></a></span>
+					</div>
+					<p>
+						👋 I am a Postdoctral Fellow at Princeton University's <a class="" href="https://pli.princeton.edu/">PLI</a>, working with <a class="" href="https://liuzhuang13.github.io/">Zhuang Liu</a>, <a class="" href="https://www.cs.princeton.edu/~danqic/">Danqi Chen</a>, and <a class="" href="https://www.cs.princeton.edu/~arora/">Sanjeev Arora</a>.
+					</p> 
+					<p>
+						My research primarily focuses on generative multimodal models at the intersection between vision and natural language (e.g., multimodal LLMs, text-to-image/video generation, omni models). I aim to improve the perception and reasoning capabilities of multimodal models by bridging them together. I have built better evaluations for emergent abilities, and used synthetic data to design models that can better perceive and reason about the multimodal world. My PhD thesis is <a class="" href="asset/pdfs/Ph_D__Dissertation.pdf">Bridging Perception and Reasoning in Multimodal Models</a>.
+					</p>
+					<p>
+						I earned my Ph.D. in Computer Science at the University of Pennsylvania advised by Prof. <a class="" href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a> from 2020 to 2025. During my PhD, I have interned at Microsoft and AWS AI Labs. I did my B.S. in Computer Science at UIUC from 2017 to 2020, where I was very fortunate to be advised by Prof. <a class="" href="https://hanj.cs.illinois.edu/">Jiawei Han</a> and Prof. <a class="" href="https://shangjingbo1226.github.io/">Jingbo Shang</a>.
+					</p> 
+					<!-- <p>
+						My hometown is <a class="" href="https://www.szmuseum.com/En/Home/Index#page1">Suzhou (苏州)</a>.
+					</p> -->
+					<p>
+						I'm always open to collaborations. Send me an email if you're interested!</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="mx-5 my-5" id="highlights">
+		<h3 class="mx-5">🌟 Recent highlights</h3>
+		<ul class=" mx-5">
+			<li class="bg-light">
+				<b>[Oct, 2025] </b> Finally submitted <a class="" href="asset/pdfs/Ph_D__Dissertation.pdf">my PhD thesis </a>and graduated from PhD 🎓! Thanks for all the support from my advisors, friends, and family + 🐈 🐱!
+			</li>
+			<li class="bg-light">
+				<b>[Jul, 2025] </b> I'm presenting <a href="https://zeyofu.github.io/ReFocus/">ReFocus: Visual Editing as a Chain of Thought for Structured Image Understanding</a> @ <i>ICML 2025</i>. See you in Vancouver!
+			</li>
+			<li class="bg-light">
+				<b>[Apr, 2025] </b> I'll begin my postdoc journey in August at <a href="https://pli.princeton.edu/">Princeton AI Lab</a>. Hello New Jersey :D
+			</li>
+			<li class="bg-light">
+				<b>[Oct, 2024] </b> I'm presenting <a href="https://zeyofu.github.io/CommonsenseT2I/">Commonsense-T2I: Can Text-to-Image Generation Models Understand Commonsense?</a> @ <i>COLM 2024</i>. See you in Philadelphia!
+			</li>
+
+			<li class="bg-light">
+				<b>[Oct, 2024] </b> I'm presenting <a href="https://zeyofu.github.io/blink/">BLINK: Multimodal Large Language Models Can See but Not Perceive</a> @ <i>ECCV 2024</i> in the great Milano, Italy.
+			</li>
+
+			<!-- <li class="bg-light">
+				<b>[Jun, 2024] </b> I'm presenting our paper <a href="https://zeyofu.github.io/blink/">BLINK: Multimodal Large Language Models Can See but Not Perceive</a> @ <a href="https://computer-vision-in-the-wild.github.io/cvpr-2024/"><i>CVPR 2024 cVinW Workshop</i></a>.
+			</li> -->
+		</ul>
+		</div>
+	</section>
+	<section class="mx-5 my-5" id="research">
+		<h3 class="mx-5">📑 Research Projects</h3>
+		<br>
+		<ul class="list-group list-group-flush mx-5">
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/RAL.png" alt="RAL">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Reinforced Attention Learning</h5>
+						<p>Bangzheng Li, Jianmo Ni, Chen Qu, Ian Miao, Liu Yang, <u>Xingyu Fu</u>, Muhao Chen, Derek Zhiyuan Cheng</p>
+						<p>Arxiv 2026 Feb</p>
+						<p>
+							<a href="https://arxiv.org/abs/2602.04884">[paper]</a>
+							<!-- <a href="https://zlab-princeton.github.io/UEval/">[website]</a>
+							<a href="https://github.com/zlab-princeton/UEval">[code]</a> -->
+							<!-- <a href="https://huggingface.co/datasets/zlab-princeton/UEval">[dataset]</a> -->
+							<a href="https://x.com/BangzhengL/status/2019478008860442931">[twitter]</a>
+						</p>
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/ueval.png" alt="ueval">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>UEval: A Benchmark for Unified Multimodal Generation</h5>
+						<p>Bo Li, Yida Yin, Wenhao Chai, <u>Xingyu Fu</u>*, Zhuang Liu*</p>
+						<p>Arxiv 2026 Jan</p>
+						<p>
+							<a href="https://arxiv.org/pdf/2601.22155">[paper]</a>
+							<a href="https://zlab-princeton.github.io/UEval/">[website]</a>
+							<a href="https://github.com/zlab-princeton/UEval">[code]</a>
+							<a href="https://huggingface.co/datasets/zlab-princeton/UEval">[dataset]</a>
+							<a href="https://x.com/liuzhuang1234/status/2018123463979077899">[twitter]</a>
+						</p>
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4">
+						<img class="img-fluid" src="asset/image/deeptrace.png" alt="DeeptraceReward">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Learning Human-Perceived Fakeness in AI-Generated Videos via Multimodal LLMs</h5>
+						<p><u>Xingyu Fu</u>, Siyi Liu, Yinuo Xu, Pan Lu, Guangqiuse Hu, Tianbo Yang, Taran Anantasagar, Christopher Shen, Yikai Mao, Yuanzhe Liu, Keyush Shah, Chung Un Lee, Yejin Choi, James Zou, Dan Roth*, Chris Callison-Burch*</p>
+						<p>Arxiv 2025 Sep</p>
+						<p>
+							<a href="https://arxiv.org/abs/2509.22646">[paper]</a>
+							<a href="https://deeptracereward.github.io/">[website]</a>
+							<a href="https://github.com/deeptracereward/deeptracereward">[code]</a>
+							<a href="https://huggingface.co/datasets/DeeptraceReward/RewardData">[dataset]</a>
+							<a href="https://x.com/XingyuFu2/status/1973351424374222969">[twitter]</a>
+						</p>
+					</div>
+				</div>
+			</li>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/refocus.png" alt="refocus">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>ReFocus: Visual Editing as a Chain of Thought for Structured Image Understanding</h5>
+						<p><u>Xingyu Fu</u>, Minqian Liu, Zhengyuan Yang, John Corring, Yijuan Lu, Jianwei Yang, Dan Roth, Dinei Florencio, Cha Zhang</p>
+						<p>ICML 2025</p>
+						<p>
+							<a href="https://arxiv.org/abs/2501.05452">[paper]</a>
+							<a href="https://zeyofu.github.io/ReFocus/">[website]</a>
+							<a href="https://github.com/zeyofu/ReFocus_Code">[code]</a>
+							<a href="https://huggingface.co/datasets/ReFocus/ReFocus_Data">[dataset]</a>
+							<a href="https://x.com/XingyuFu2/status/1878860009247060290">[twitter]</a>
+						</p>
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/scienceT2I.png" alt="scienceT2I">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Science-T2I: Addressing Scientific Illusions in Image Synthesis</h5>
+						<p>Jialuo Li, Wenhao Chai, <u>Xingyu Fu</u>, Haiyang Xu, Saining Xie</p>
+						<p>CVPR 2025</p>
+						<p>
+							<a href="https://arxiv.org/abs/2504.13129">[paper]</a>
+							<a href="https://jialuo-li.github.io/Science-T2I-Web/">[website]</a>
+							<a href="https://github.com/Jialuo-Li/Science-T2I">[code]</a>
+							<a href="https://huggingface.co/collections/Jialuo21/science-t2i-67d3bfe43253da2bc7cfaf06">[dataset]</a>
+							<!-- <a href="https://x.com/fwang_nlp/status/1805979479791280247">[twitter]</a> -->
+						</p>
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/muirbench.png" alt="muirbench">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>MUIRBENCH: A Comprehensive Benchmark for Robust Multi-image Understanding</h5>
+						<p>Fei Wang*, <u>Xingyu Fu*</u>, James Y. Huang, Zekun Li, Qin Liu, Xiaogeng Liu, Mingyu Derek Ma, Nan Xu, Wenxuan Zhou, Kai Zhang, Tianyi Lorena Yan, Wenjie Jacky Mo, Hsiang-Hui Liu, Pan Lu, Chunyuan Li, Chaowei Xiao, Kai-Wei Chang, Dan Roth, Sheng Zhang, Hoifung Poon, Muhao Chen</p>
+						<p>ICLR 2025</p>
+						<p>
+							<a href="https://arxiv.org/abs/2406.09411">[paper]</a>
+							<a href="https://muirbench.github.io/">[website]</a>
+							<a href="https://github.com/muirbench/MuirBench">[code]</a>
+							<a href="https://huggingface.co/datasets/MUIRBENCH/MUIRBENCH">[dataset]</a>
+							<a href="https://x.com/fwang_nlp/status/1805979479791280247">[twitter]</a>
+						</p>
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/sketchpad.png" alt="sketchpad">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models</h5>
+						<p>
+							Yushi Hu*, Weijia Shi*, <u>Xingyu Fu</u>, Dan Roth, Mari Ostendorf, Luke Zettlemoyer, Noah A Smith, Ranjay Krishna</p>
+						<p>NeurIPS 2024</p>
+						<p>
+							<a href="https://arxiv.org/abs/2406.09403">[paper]</a>
+							<a href="https://visualsketchpad.github.io/">[website]</a>
+							<a href="https://github.com/Yushi-Hu/VisualSketchpad">[code]</a>
+							<a href="https://twitter.com/WeijiaShi2/status/1801666082396377470">[twitter]</a>
+							<!-- <a href="https://huggingface.co/papers/2406.09403">[<img src="asset/image/hf-logo.png" width="25" /> Daily Papers]</a> -->
+						</p>
+				</div>
+			</li>
+			<br>
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/commonsenseT2I.png" alt="commonsenseT2I">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Commonsense-T2I Challenge: Can Text-to-Image Generation Models Understand Commonsense?</h5>
+						<p><u>Xingyu Fu</u>, Muyu He, Yujie Lu, William Yang Wang, Dan Roth</p>
+						<p>COLM 2024</p>
+						<p>
+							<a href="https://arxiv.org/abs/2406.07546">[paper]</a>
+							<a href="https://zeyofu.github.io/CommonsenseT2I/">[website]</a>
+							<a href="https://github.com/zeyofu/Commonsense-T2I">[code]</a>
+							<a href="https://huggingface.co/datasets/CommonsenseT2I/CommonsensenT2I">[dataset]</a>
+							<a href="https://twitter.com/XingyuFu2/status/1801369092944969736">[twitter]</a>
+							<!-- <a href="https://huggingface.co/papers/2406.07546">[<img src="asset/image/hf-logo.png" width="25" /> Daily Papers]</a> -->
+						</p>
+				</div>
+			</li>
+			<br>
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/blink.png" alt="blink">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>BLINK: Multimodal Large Language Models Can See but Not Perceive</h5>
+						<p><u>Xingyu Fu*</u>, Yushi Hu*, Bangzheng Li, Yu Feng, Haoyu Wang, Xudong Lin, Dan Roth, Noah A. Smith, Wei-Chiu Ma†, Ranjay Krishna†</p>
+						<p>ECCV 2024, <span style="color:red"><b>Spotlight</b></span> of cVinW@CVPR 2024, <span style="color:blue"><b>36K</b></span> total downloads.</p>
+						<p>
+							<a href="https://arxiv.org/abs/2404.12390">[paper]</a>
+							<a href="https://zeyofu.github.io/blink/">[website]</a>
+							<a href="https://github.com/zeyofu/BLINK_Benchmark">[code]</a>
+							<a href="https://huggingface.co/datasets/BLINK-Benchmark/BLINK">[dataset]</a>
+							<a href="https://eval.ai/web/challenges/challenge-page/2287/overview">[eval]</a>
+							<a href="https://twitter.com/XingyuFu2/status/1781368539213082683">[twitter]</a>
+							<a href="https://huggingface.co/papers/2404.12390">[<img src="asset/image/hf-logo.png" width="25" /> Paper of the day]</a>
+						</p>
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/deceptive.png" alt="deceptive">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Deceptive Semantic Shortcuts on Reasoning Chains: How Far Can Models Go without Hallucination?</h5>
+						<p>Bangzheng Li, Ben Zhou, Fei Wang, <u>Xingyu Fu</u>, Dan Roth, Muhao Chen</p>
+						<p>NAACL. 2024.</p>
+						<p>
+							<a href="https://arxiv.org/paper/2311.09702">[paper]</a>
+							<a href="https://vincentleebang.github.io/eureqa.github.io/">[website]</a>
+							<a href="https://github.com/VincentLeebang/eureqa">[code]</a>
+							<a href="https://huggingface.co/datasets/vincentleebang/EUREQA">[dataset]</a>
+						</p>
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/imagenhub.png" alt="imagenhub">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>ImagenHub: Standardizing the evaluation of conditional image generation models</h5>
+						<p>Max Ku, Tianle Li, Kai Zhang, Yujie Lu, <u>Xingyu Fu</u>, Wenwen Zhuang, Wenhu Chen</p>
+						<p>ICLR. 2024.</p>
+						<p>
+							<a href="https://arxiv.org/abs/2310.01596">[paper]</a>
+							<a href="https://tiger-ai-lab.github.io/ImagenHub/">[website]</a>
+							<a href="https://github.com/TIGER-AI-Lab/ImagenHub">[code]</a>
+							<a href="https://huggingface.co/ImagenHub">[dataset]</a>
+							<a href="https://chromaica.github.io/#imagen-museum">[visualization]</a>
+						</p>
+				</div>
+			</li>
+			<br>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/generate-then-select.png" alt="generate-then-select">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Generate then Select: Open-ended Visual Question Answering Guided by World Knowledge</h5>
+						<p><u>Xingyu Fu</u>, Sheng Zhang, Gukyeong Kwon, Pramuditha Perera, Henghui Zhu, Yuhao Zhang, Alexander Hanbo Li, William Yang Wang, Zhiguo Wang, Vittorio Castelli, Patrick Ng, Dan Roth, Bing Xiang</p>
+						<p>ACL findings. 2023.</p>
+						<p>
+							<a href="https://aclanthology.org/2023.findings-acl.147/">[paper]</a>			
+							<a href="https://www.amazon.science/publications/generate-then-select-open-ended-visual-question-answering-guided-by-world-knowledge">[website]</a>
+							<a href="https://github.com/zeyofu/vqa-generate-then-select">[code]</a>
+						</p>				
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/dclub.png" alt="dclub">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Dynamic Clue Bottlenecks: Towards Interpretable-by-Design Visual Question Answering</h5>
+						<p><u>Xingyu Fu</u>, Ben Zhou, Sihao Chen, Mark Yatskar, Dan Roth</p>
+						<p>Arxiv. 2023.</p>
+						<p>
+							<a href="https://arxiv.org/abs/2305.14882">[paper]</a>
+							<!-- <a href="https://tiger-ai-lab.github.io/ImagenHub/">[website]</a> -->
+							<!-- <a href="https://github.com/TIGER-AI-Lab/ImagenHub">[code]</a> -->
+							<!-- <a href="https://huggingface.co/ImagenHub">[dataset]</a> -->
+						</p>
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/there's.png" alt="there's">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>There's a Time and Place for Reasoning Beyond the Image</h5>
+						<p><u>Xingyu Fu</u>, Ben Zhou, Ishaan Chandratreya, Carl Vondrick, Dan Roth</p>
+						<p>ACL <span style="color:red"><b>(Oral)</b></span>. 2022.</p>
+						<p>
+							<a href="https://aclanthology.org/2022.acl-long.81/">[paper]</a>
+							<!-- <a href="https://tiger-ai-lab.github.io/ImagenHub/">[website]</a> -->
+							<a href="https://github.com/zeyofu/tara">[code]</a>
+							<!-- <a href="https://huggingface.co/ImagenHub">[dataset]</a> -->
+						</p>
+				</div>
+			</li>
+			<br>
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/edl.png" alt="there's">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Design Challenges in Low-resource Cross-lingual Entity Linking</h5>
+						<p><u>Xingyu Fu*</u>, Weijia Shi*, Xiaodong Yu, Zian Zhao, Dan Roth</p>
+						<p>EMNLP. 2020.</p>
+						<p>
+							<a href="https://aclanthology.org/2020.emnlp-main.521/">[paper]</a>
+							<!-- <a href="https://tiger-ai-lab.github.io/ImagenHub/">[website]</a> -->
+							<a href="https://github.com/zeyofu/EDL">[code]</a>
+							<!-- <a href="https://huggingface.co/ImagenHub">[dataset]</a> -->
+						</p>
+				</div>
+			</li>
+			<br>
+
+
+			<li class="list-group-item bg-light">
+				<div class="row">
+					<div class="col-4"><img class="img-fluid" src="asset/image/arabic.png" alt="arabic">
+					</div>
+					<div class="col-7">
+						<h5 id='top' class=''>Constrained sequence-to-sequence semitic root extraction for enriching word embeddings</h5>
+						<p>Ahmed El-Kishky*, <u>Xingyu Fu*</u>, Aseel Addawood, Nahil Sobh, Clare Voss, Jiawei Han</p>
+						<p>WANLP @ ACL. 2019.</p>
+						<p>
+							<a href="https://aclanthology.org/W19-4610/">[paper]</a>
+							<!-- <a href="https://tiger-ai-lab.github.io/ImagenHub/">[website]</a> -->
+							<!-- <a href="https://github.com/zeyofu/EDL">[code]</a> -->
+							<!-- <a href="https://huggingface.co/ImagenHub">[dataset]</a> -->
+						</p>
+				</div>
+			</li>
+			<br>
+		</ul>
+		</div>
+	</section>
+
+
+	<section class="mx-5 my-5" id="talks">
+		<h3 class="mx-5">🎤 Invited Talks</h3>
+		<ul class=" mx-5">
+			<li class="bg-light">
+				[2024/09] </b>: UPenn Clunch. <i>Title: </i>Better Evaluations for Generative Multimodal Models.
+			</li>
+			<li class="bg-light">
+				[2024/06] </b>: Microsoft Azure AI, AI reading group. <i>Title: </i>BLINK: Multimodal Large Language Models Can See but Not Perceive.
+			</li>
+			<li class="bg-light">
+				[2023/07] </b>: Amazon AWS Responsible AI Group, AI reading group. <i>Title: </i>Generate then Select: Open-ended Visual Question Answering Guided by World Knowledge.
+			</li>
+		</ul>
+		</div>
+	</section>
+
+	<section class="mx-5 my-5" id="talks">
+		<h3 class="mx-5">💼 Work Experience</h3>
+		<ul class=" mx-5">
+			<li class="bg-light">
+				[Summer 2024], Research Intern @ Microsoft</a>, Seattle WA
+			</li>
+			<li class="bg-light">
+				[Summer 2022], Research Intern @ AWS AI Labs</a>, New York City NY
+			</li>
+			<li class="bg-light">
+				[Summer 2019], Research Intern @ Cogcomp from UPenn</a>, Philadelphia PA
+			</li>
+			<li class="bg-light">
+				[Summer 2018], Research Assistant @ DMG from UIUC</a>, Champaign IL
+			</li>
+		</ul>
+		</div>
+	</section>
+
+
+	
+
+	<!-- <section class="mx-5 my-5" id="golf">
+		<h3 class="mx-5">⛳️🏌️ Selections</h3>
+		<div class="row mx-5">
+			<div class="col-6">
+				<div class="ratio ratio-16x9">
+					<iframe class="home-vid" src="https://www.youtube.com/embed/MvXeK9cwEVs" title="YouTube video"
+						allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="ratio ratio-16x9">
+					<iframe class="home-vid" src="https://www.youtube.com/embed/2AwFT3Q2caM" title="YouTube video"
+						allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<p class="mx-5 d-flex justify-content-end"><a class='' href='pages/dance.html' role='button'>Watch
+				more &raquo;</a></p>
+		</div>
+	</section> -->
+	<hr class='featurette-divider'>
+	<footer>
+		<p class='mx-5 d-flex justify-content-end'><a class="" href='#top'>Back to top</a></p>
+	</footer>
+</body>
+
+</html>
