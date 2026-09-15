@@ -264,6 +264,9 @@
 			transition: all 0.25s;
 			align-items: start;
 		}
+		.pub-card:nth-child(even) {
+			background: #f4f6f9;
+		}
 		.pub-card:hover {
 			box-shadow: var(--shadow-md);
 			border-color: #cbd5e1;
@@ -488,24 +491,24 @@
 			<div class="hero-info">
 				<h1>Xingyu Fu <span class="chinese-name">(府星妤)</span></h1>
 				<div class="hero-meta">
-					<span class="email">xingyufu@princeton.edu</span>
+					<span class="email">xingyufu@meta.com</span>
 					<div class="social-links">
 						<a href="https://x.com/intent/user?screen_name=XingyuFu2" title="Twitter / X"><i class="fab fa-twitter"></i></a>
 						<a href="https://scholar.google.com/citations?hl=en&user=5p_uBNQAAAAJ" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
 						<a href="https://github.com/zeyofu" title="GitHub"><i class="fab fa-github"></i></a>
 						<a href="https://www.linkedin.com/in/xingyu-fu-cheers/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-						<a href="asset/pdfs/XingyuFu_CV.pdf" title="CV" style="font-weight:700;font-size:0.75rem;">CV</a>
+						<!-- <a href="asset/pdfs/XingyuFu_CV.pdf" title="CV" style="font-weight:700;font-size:0.75rem;">CV</a> -->
 					</div>
 				</div>
 				<div class="hero-bio">
 					<p>
-						👋 I am a Postdoctoral Fellow at Princeton University's <a href="https://pli.princeton.edu/">PLI</a>, working with <a href="https://liuzhuang13.github.io/">Zhuang Liu</a>, <a href="https://www.cs.princeton.edu/~danqic/">Danqi Chen</a>, and <a href="https://www.cs.princeton.edu/~arora/">Sanjeev Arora</a>.
+						👋 I'm a research scientist at Meta Superintelligence Labs, working on AI agents.
 					</p>
 					<p>
-						My research primarily focuses on generative multimodal models at the intersection between vision and natural language (e.g., multimodal LLMs, text-to-image/video generation, omni models). I aim to improve the perception and reasoning capabilities of multimodal models by bridging them together. I have built better evaluations for emergent abilities, and used synthetic data to design models that can better perceive and reason about the multimodal world. My PhD thesis is <a href="https://github.com/zeyofu/zeyofu.github.io/blob/master/asset/pdfs/Ph_D__Dissertation.pdf">Bridging Perception and Reasoning in Multimodal Models</a>.
+						Before Meta, I was a Postdoctoral Fellow at Princeton University's <a href="https://pli.princeton.edu/">PLI</a>, working with <a href="https://liuzhuang13.github.io/">Zhuang Liu</a>, <a href="https://www.cs.princeton.edu/~danqic/">Danqi Chen</a>, and <a href="https://www.cs.princeton.edu/~arora/">Sanjeev Arora</a>, during 2025–2026. I earned my Ph.D. in Computer Science at the University of Pennsylvania advised by Prof. <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a> from 2020 to 2025. During my PhD, I interned at Microsoft and AWS AI Labs. I did my B.S. in Computer Science at UIUC from 2017 to 2020, where I was very fortunate to be advised by Prof. <a href="https://hanj.cs.illinois.edu/">Jiawei Han</a> and Prof. <a href="https://shangjingbo1226.github.io/">Jingbo Shang</a>.
 					</p>
 					<p>
-						I earned my Ph.D. in Computer Science at the University of Pennsylvania advised by Prof. <a href="https://www.cis.upenn.edu/~danroth/">Dan Roth</a> from 2020 to 2025. During my PhD, I interned at Microsoft and AWS AI Labs. I did my B.S. in Computer Science at UIUC from 2017 to 2020, where I was very fortunate to be advised by Prof. <a href="https://hanj.cs.illinois.edu/">Jiawei Han</a> and Prof. <a href="https://shangjingbo1226.github.io/">Jingbo Shang</a>.
+						I'm currently interested in building capable and self-improving AI agents — including agent evaluation, scalable self-improvement, and designing benchmarks that reveal emergent agent abilities. My research has also focused heavily on generative multimodal models at the intersection of vision and language (e.g., multimodal LLMs, text-to-image/video generation, omni models), where I built better evaluations for emergent abilities and used synthetic data to design models that can better perceive and reason about the multimodal world. My PhD thesis is <a href="https://github.com/zeyofu/zeyofu.github.io/blob/master/asset/pdfs/Ph_D__Dissertation.pdf">Bridging Perception and Reasoning in Multimodal Models</a>.
 					</p>
 				</div>
 			</div>
@@ -538,6 +541,19 @@
 	<section class="content-section fade-in" id="research">
 		<h2 class="section-title"><span class="emoji">&#128209;</span> Research Projects</h2>
 		<div class="pub-list">
+
+			<!-- ContextRL -->
+			<div class="pub-card fade-in">
+				<img class="pub-img" src="asset/image/contextrl.png" alt="ContextRL">
+				<div class="pub-info">
+					<h3>Context-Aware RL for Agentic and Multimodal LLMs</h3>
+					<p class="pub-authors">Peiyang Xu, Bangzheng Li, Sijia Liu, Karthik R. Narasimhan, Pramod Viswanath, Prateek Mittal, <u>Xingyu Fu</u></p>
+					<p class="pub-venue">Arxiv 2026 &middot; <span class="venue-highlight">Oral</span> presentation at COLM 2026 Efficient Reasoning Workshop</p>
+					<div class="pub-links">
+						<a href="https://arxiv.org/abs/2606.17053">Paper</a>
+					</div>
+				</div>
+			</div>
 
 			<!-- RAL -->
 			<div class="pub-card fade-in">
@@ -575,7 +591,7 @@
 				<div class="pub-info">
 					<h3>UEval: A Benchmark for Unified Multimodal Generation</h3>
 					<p class="pub-authors">Bo Li, Yida Yin, Wenhao Chai, <u>Xingyu Fu</u>*, Zhuang Liu*</p>
-					<p class="pub-venue">Arxiv 2026 Jan</p>
+					<p class="pub-venue">ECCV 2026</p>
 					<div class="pub-links">
 						<a href="https://arxiv.org/pdf/2601.22155">Paper</a>
 						<a href="https://zlab-princeton.github.io/UEval/">Website</a>
@@ -592,7 +608,7 @@
 				<div class="pub-info">
 					<h3>Learning Human-Perceived Fakeness in AI-Generated Videos via Multimodal LLMs</h3>
 					<p class="pub-authors"><u>Xingyu Fu</u>, Siyi Liu, Yinuo Xu, Pan Lu, Guangqiuse Hu, Tianbo Yang, Taran Anantasagar, Christopher Shen, Yikai Mao, Yuanzhe Liu, Keyush Shah, Chung Un Lee, Yejin Choi, James Zou, Dan Roth*, Chris Callison-Burch*</p>
-					<p class="pub-venue">Arxiv 2025 Sep</p>
+					<p class="pub-venue">COLM 2026</p>
 					<div class="pub-links">
 						<a href="https://arxiv.org/abs/2509.22646">Paper</a>
 						<a href="https://deeptracereward.github.io/">Website</a>
@@ -815,6 +831,14 @@
 		<h2 class="section-title"><span class="emoji">&#127908;</span> Invited Talks</h2>
 		<ul class="info-list">
 			<li>
+				<span class="info-date">Apr 2026</span>
+				<span class="info-content">Princeton <a href="https://princeton-nlp.github.io/cos484/">COS 484: Natural Language Processing</a> &mdash; <em>Multimodal LLMs</em></span>
+			</li>
+			<li>
+				<span class="info-date">Feb 2026</span>
+				<span class="info-content">Rutgers <a href="https://chengzhi-mao.github.io/Spring2026.html">Frontiers in Foundation Models</a> &mdash; <em>Bridging Perception and Reasoning in Multimodal Models</em></span>
+			</li>
+			<li>
 				<span class="info-date">Sep 2024</span>
 				<span class="info-content">UPenn Clunch &mdash; <em>Better Evaluations for Generative Multimodal Models</em></span>
 			</li>
@@ -833,6 +857,10 @@
 	<section class="content-section fade-in" id="experience">
 		<h2 class="section-title"><span class="emoji">&#128188;</span> Work Experience</h2>
 		<ul class="info-list">
+			<li>
+				<span class="info-date">Jun 2026 – Present</span>
+				<span class="info-content">Research Scientist @ Meta, Menlo Park CA</span>
+			</li>
 			<li>
 				<span class="info-date">Summer 2024</span>
 				<span class="info-content">Research Intern @ Microsoft, Seattle WA</span>
